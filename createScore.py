@@ -254,6 +254,7 @@ def creationZoneGlobale(adresse, fichier, nomZone):
 	tabZoneGlobale.append("	\\compressFullBarRests")
 	tabZoneGlobale.append("	\\tempo \"Indication Tempo\" 4 = ")
 	tabZoneGlobale.append("	#(set-global-staff-size 19)")
+	tabZoneGlobale.append("	\\set Score.doubleRepeatType = #\":|.|:\"")
 	tabZoneGlobale.append("}")
 	tabZoneGlobale.append("%-----------------------------------------------------------------------")
 	while ligne < len(tabZoneGlobale):
